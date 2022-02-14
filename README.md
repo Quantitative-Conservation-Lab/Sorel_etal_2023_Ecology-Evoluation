@@ -1,11 +1,11 @@
 # Wenatchee-screw-traps
 
-This repository is associated with the in prep. manuscript:
+This repository is associated with the in review manuscript:
 
 "Density and climate effects on the abundance of juvenile salmon across alternative life histories"
 By: Mark H. Sorel, Andrew R. Murdoch, Richard W. Zabel, Cory M. Kamphaus, Eric R. Buhle, Mark D. Scheuerell, and Sarah J. Converse
 
-The goal of this repository is to model the abundance juvenile Chinook salmon emigrating from natal streams at different ages in the Wenatchee Basin.
+The goal of this repository is to model the production of juvenile Chinook salmon expressing different juvenile life history strategies in the Wenatchee Basin.
 
 The controlling script for the analysis is `SR_all_LVR.R`, which sources a number of other `R` and `.cpp` scripts within the `src` folder. 
 
