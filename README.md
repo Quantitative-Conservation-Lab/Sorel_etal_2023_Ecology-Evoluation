@@ -2,7 +2,8 @@
 
 This repository is associated with the in review manuscript:
 
-"Density and climate effects on the abundance of juvenile salmon across alternative life histories"
+"Effects of population density and environmental conditions on life-history prevalence in a 
+migratory fish"
 By: Mark H. Sorel, Andrew R. Murdoch, Richard W. Zabel, Cory M. Kamphaus, Eric R. Buhle, Mark D. Scheuerell, and Sarah J. Converse
 
 The goal of this repository is to model the production of juvenile Chinook salmon expressing different juvenile life history strategies in the Wenatchee Basin.
