@@ -1,4 +1,16 @@
-The purpose of the repository is to estimate the abundance of juvenile spring Chinook salmon (*Oncorhynchus tshawytscha*) emigrants from natal streams in the Wenatchee River Basin that express different juvenile life history pathways, and evaluate relationships between their abundance, spawner density, and streamflow. Daily emigrant abundance estimation is accomplished using a Lincoln-Peterson model `src\TMB\screw_trap_LP_4.cpp`, and relationships with density and streamflow are evaluated using a modified Beverton-Holt model `src\TMB\Stock_recruit_LVM.cpp`.
+## *Effects of population density and environmental conditions on life-history prevalence in a migratory fish*  
+
+#### *Ecology and Evolution*  
+
+#### Mark H. Sorel, Andrew R. Murdoch, Rich W. Andrew, Cory M. Kamphaus, Eric R. Buhle, Mark D. Scheuerell, Sarah J. Converse  
+
+##### Please contact the first author for questions about the code or data: Mark H. Sorel (marksorel8@gmail.com)  
+_______________________________________________________________________________________
+
+## Abstract
+
+Individual variation in life-history traits can have important implications for the ability of populations to respond to environmental variability and change. In migratory animals, flexibility in the timing of life-history events, such as juvenile emigration from natal areas, can influence the effects of population density and environmental conditions on habitat use and population dynamics. We evaluated the functional relationships between population density and environmental covariates and the abundance of juveniles expressing different life-history pathways in a migratory fish, Chinook salmon (*Oncorhynchus tshawytscha*), in the Wenatchee River basin in Washington State, USA. We found that the abundance of younger emigrants from natal streams was best described by an accelerating or near-linear function of spawners, whereas the abundance of older emigrants was best described by a decelerating function of spawners. This supports the hypothesis that emigration timing varies in response to density in natal areas, with younger-emigrating life-history pathways comprising a larger proportion of emigrants when densities of conspecifics are high. We also observed positive relationships between winter stream discharge and abundance of younger emigrants, supporting the hypothesis that habitat conditions can also influence the prevalence of different life-history pathways. Our results suggest that early emigration, and a resultant increase in the use of downstream rearing habitats, may increase at higher population densities and with greater winter precipitation. Winter precipitation is projected to increase in this system due to climate warming. Characterizing relationships between life-history prevalence and environmental conditions may improve our understanding of species habitat requirements and is a first step in understanding the dynamics of species with diverse life-history strategies. As environmental conditions change -- due to climate change, management, or other factors -- resultant life-history changes are likely to have important demographic implications that will be challenging to predict if life-history diversity is not accounted for in population models.
+
 
 ## Table of Contents
 
@@ -36,18 +48,9 @@ The purpose of the repository is to estimate the abundance of juvenile spring Ch
 
 `dataRetrieval_2.7.12` `glmmTMB_1.1.5` `readxl_1.4.1` `TMBhelper_1.4.0` `TMB_1.9.3` `viridis_0.6.2` `viridisLite_0.4.1` `lubridate_1.9.1` `forcats_1.0.0` `stringr_1.5.0` `dplyr_1.1.0` `purrr_1.0.1` `readr_2.1.2` `tidyr_1.3.0` `tibble_3.1.8` `ggplot2_3.4.1` `tidyverse_2.0.0` `here_1.0.1` `mixtools_2.0.0`
 
-## Details of article
-
-Details of this work can be found in the in-press journal article on this topic:
-
-Sorel MH, Murdoch AR, Zabel RW, Kamphaus CM, Buhle ER, Scheuerell MD and Converse SJ. Effects of population density and environmental conditions on life-history prevalence in a migratory fish. Ecology and Evoluation.
-
-### Abstract
-
-Individual variation in life-history traits can have important implications for the ability of populations to respond to environmental variability and change. In migratory animals, flexibility in the timing of life-history events, such as juvenile emigration from natal areas, can influence the effects of population density and environmental conditions on habitat use and population dynamics. We evaluated the functional relationships between population density and environmental covariates and the abundance of juveniles expressing different life-history pathways in a migratory fish, Chinook salmon (*Oncorhynchus tshawytscha*), in the Wenatchee River basin in Washington State, USA. We found that the abundance of younger emigrants from natal streams was best described by an accelerating or near-linear function of spawners, whereas the abundance of older emigrants was best described by a decelerating function of spawners. This supports the hypothesis that emigration timing varies in response to density in natal areas, with younger-emigrating life-history pathways comprising a larger proportion of emigrants when densities of conspecifics are high. We also observed positive relationships between winter stream discharge and abundance of younger emigrants, supporting the hypothesis that habitat conditions can also influence the prevalence of different life-history pathways. Our results suggest that early emigration, and a resultant increase in the use of downstream rearing habitats, may increase at higher population densities and with greater winter precipitation. Winter precipitation is projected to increase in this system due to climate warming. Characterizing relationships between life-history prevalence and environmental conditions may improve our understanding of species habitat requirements and is a first step in understanding the dynamics of species with diverse life-history strategies. As environmental conditions change -- due to climate change, management, or other factors -- resultant life-history changes are likely to have important demographic implications that will be challenging to predict if life-history diversity is not accounted for in population models.
 
 ## How to use this repository
-
 Start in the `SR_all_LVM.R` file. This file produces all results presented in the manuscript and sources other files in the repository. Those interested specifically in the estimation model for daily juvenile emigrant abundance and classification of life history pathways may want to start at the `src\ST_all.R` file.
 
-Questions regarding this repository can be directed to Mark Sorel, [marksorel8\@gmail.com](mailto:marksorel8@gmail.com)
+Daily emigrant abundance estimation is accomplished using a Lincoln-Peterson model `src\TMB\screw_trap_LP_4.cpp`, and relationships with density and streamflow are evaluated using a modified Beverton-Holt model `src\TMB\Stock_recruit_LVM.cpp`.
+
