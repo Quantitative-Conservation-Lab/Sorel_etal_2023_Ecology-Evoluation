@@ -2,7 +2,7 @@
 
 #### *Ecology and Evolution*  
 
-#### Mark H. Sorel, Andrew R. Murdoch, Rich W. Andrew, Cory M. Kamphaus, Eric R. Buhle, Mark D. Scheuerell, Sarah J. Converse  
+#### Mark H. Sorel, Andrew R. Murdoch, Rich W. Zabel, Cory M. Kamphaus, Eric R. Buhle, Mark D. Scheuerell, Sarah J. Converse  
 
 ##### Please contact the first author for questions about the code or data: Mark H. Sorel (marksorel8@gmail.com)  
 _______________________________________________________________________________________
